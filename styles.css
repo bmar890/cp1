@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #81d4fa;
+}
+
+h1, h2, h3, h4, p {
+  font-family: "Tahoma" sans-serif;
+}
+
+.logo_image {
+  height: 60px;
+  width: auto;
+}
+
+.bg-light {
+  background-color: #4b90c4!important;
+}
+
+.nav-link {
+  color: #FFFFFF!important;
+  height: 60px;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: #000000!important;
+}
+
+.item_header {
+  font-size: 60px;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 75px;
+}
+
+.item_container {
+  margin: 1.5em auto;
+  max-width: 1240px;
+  column-gap: 1em;
+  column-count: 4;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: inherit;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+.item_text {
+  text-align: center;
+  font-size: 24px;
+}
+
+.home_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home_image {
+  max-height: 300px;
+  width: auto;
+}
+
+.home_header {
+  text-align: center;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.home_text {
+  font-size: 24px;
+  margin: 15px;
+  text-align: center;
+}
+
+.home_subtitle {
+  font-size: 16px;
+  margin: 25px;
+  text-align: center;
+}
+
+.contact_text {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+}
+
+
+.review_item {
+  font-size: 24px;
+  margin: 30px;
+}
+
+.disclaimer {
+  font-size: 10px;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+}
